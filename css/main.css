@@ -1,0 +1,9 @@
+@import "../css/base/variabels.css";
+@import "../css/base/reset.css";
+
+@import "../css/layout/header.css";
+@import "../css/layout/footer.css";
+
+@import "../css/components/card.css";
+@import "../css/components/button.css";
+@import "../css/components/form.css";

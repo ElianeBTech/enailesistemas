@@ -1,0 +1,60 @@
+.cadastro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.formulario {
+  background-color: var(--cor-fundoAzul);
+  border-radius: var(--raio);
+  padding: 30px;
+  width: 100%;
+  max-width: 440px;
+  color: var(--textoClaro);
+}
+
+.form {
+  color: var(--cor-textoClaro);
+}
+
+.formulario label {
+  display: block;
+  font-family: var(--fonte-ui);
+  font-size: 13px;
+  color: var(--cor-textoClaro);
+  margin: 14px 0;
+}
+
+.formulario input {
+  width: 100%;
+  font-family: var(--fonte-ui);
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid var(--cor-fundoClaro);
+  border-radius: var(--raio);
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: var(--cor-fundoClaro);
+}
+
+.formulario .btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: var(--raio);
+}
+
+.rodape-form {
+  text-align: center;
+  font-family: var(--fonte-ui);
+  font-size: 14px;
+  margin-top: 16px;
+  color: var(--cor-textoClaro);
+}
+
+.rodape-form a {
+  color: var(--cor-suave);
+}

@@ -1,0 +1,18 @@
+:root {
+  --cor-fundo: #020420;
+  --cor-fundoTransparente: #020420c5;
+  --cor-fundoAzul: #0c2159;
+  --cor-texto: #131212;
+  --cor-textoClaro: #f2f3f7;
+  --cor-suave: #1884c2;
+  --cor-fundoClaro: #afb0b3;
+  --cor-fundoEscuro: #383737;
+  --cor-card: #e0c8c8;
+  --cor-destaque: #c25d27;
+
+  --fonte-logo: "Exo 2", "Ubuntu", Josefim Sans;
+  --fonte-corpo: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  --fonte-ui: Arial, Helvetica, sans-serif;
+
+  --raio: 8px;
+}

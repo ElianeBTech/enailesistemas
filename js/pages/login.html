@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="icon" href="../../assets/icons/favicon.ico">
+  <link rel="stylesheet" href="../../css/main.css">
+  <script src="../../js/components/site-header.js" defer></script>
+  <script src="../../js/components/site-footer.js" defer></script>
+
+</head>
+
+<body>
+  <site-header></site-header>
+  <div class="container">
+    <main class="cadastro">
+      <form id="form-login" class="formulario">
+
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+
+
+
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" placeholder="sua senha" ninlength="5" maxlength="15">
+
+
+        <button type="submit" class="btn btn--primary">Entrar</button>
+        <p class="rodape-form">Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+      </form>
+    </main>
+  </div>
+  <site-footer></site-footer>
+</body>
+
+</html>

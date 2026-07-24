@@ -1,0 +1,90 @@
+.card-anuncio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 150px 150px;
+
+  color: var(--cor-textoClaro);
+  margin-top: 100px;
+  gap: 20px;
+}
+
+h1 {
+  grid-row: 1;
+  font-size: clamp(1rem, 2vw + 1rem, 2rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--cor-textoClaro);
+}
+h2 {
+  grid-row: 2;
+  font-size: clamp(0.6rem, 1.5vw + 0.6rem, 1.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  color: var(--cor-fundoClaro);
+}
+
+.contato {
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.card-servicos {
+  background-color: var(--cor-fundo);
+  justify-content: center;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: var(--cor-fundoEscuro);
+  padding: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 30%;
+  border-radius: 20px;
+}
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: translateY(-10px);
+}
+
+.card h2 {
+  padding: 5px;
+  color: var(--cor-textoClaro);
+}
+
+.card p {
+  padding: 1px 5px 5px 5px;
+  color: var(--cor-fundoClaro);
+}
+
+.convite {
+  background-color: var(--cor-fundoAzul);
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.card-convite {
+  display: grid;
+  align-content: space-between;
+  text-align: center;
+  line-height: 2;
+  padding: 50px;
+
+  color: var(--cor-textoClaro);
+}
