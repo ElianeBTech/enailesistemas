@@ -2,7 +2,7 @@ class SiteHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
       `<header class="topo">
-   <div class="logo"> <img src="../ativos/image/logo.png" /></div>
+   <div class="logo"> <img src="assets/image/logo.png" /></div>
   
         <nav class="navegacao">
         <a href="../index.html">Home</a>
