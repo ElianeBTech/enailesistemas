@@ -5,7 +5,7 @@ class SiteHeader extends HTMLElement {
    <div class="logo"> <img src="../../assets/image/logo.png"/></div>
   
         <nav class="navegacao">
-        <a href="../index.html">Home</a>
+        <a href="./index.html">Home</a>
         <a href="#">Serviços</a>
         <a href="../js/pages/login.html">Login</a>
         <a href="../js/pages/cadastro.html">Cadastro</a>
