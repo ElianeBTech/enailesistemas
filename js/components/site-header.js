@@ -7,7 +7,7 @@ class SiteHeader extends HTMLElement {
         <nav class="navegacao">
         <a href="./index.html">Home</a>
         <a href="#">Serviços</a>
-        <a href="/js/pages/login.html">Login</a>
+        <a href="https://elianebtech.github.io/enailesistemas/js/pages/login.html">Login</a>
         <a href="/js/pages/cadastro.html">Cadastro</a>
     </nav>
     </header>`
