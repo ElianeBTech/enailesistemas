@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   font-family: var(--fonte-corpo);
   color: var(--cor-texto);
-  background-color: var(--cor-fundoEscuro);
+  background-color: var(--cor-fundoClaro);
   line-height: 1.7;
   max-width: 1200px;
   margin: 0 auto;
